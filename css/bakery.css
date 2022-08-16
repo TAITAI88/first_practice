@@ -1,0 +1,67 @@
+.main{
+    margin-top: 55px;
+    flex-grow: 1;
+    position: relative;
+}
+.main_top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title> h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: rgb(204, 204, 204);
+}
+.main_top{
+    display: flex;
+    position: relative;
+    /* background-color: antiquewhite; */
+}
+.title{
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #b6b6b67c, #36363600) 1;
+    /* border-radius: 10   px; */
+}
+.main_content{
+    padding-top: 3em;
+    position: relative;
+}   
+.cover{
+    background-color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    width: auto;
+    padding-bottom: 70px;
+}
+.product{
+    border: 15px solid rgba(0, 0, 0, 0);
+}
+.name{
+    font-size: 20px;
+    /* background-color: rgb(4, 0, 255); */
+    display: inline;
+}
+.price{
+    /* background-color: rgb(201, 151, 86); */
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.main_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.main_bottom > a:nth-child(2){
+    display: flex;
+    margin-right:1%;
+    margin-left:1%;
+}
